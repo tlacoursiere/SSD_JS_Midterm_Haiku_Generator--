@@ -1,0 +1,16 @@
+body {
+    background-color: lightgreen;
+}
+
+#generatedHaikuDiv {
+    text-transform: capitalize;
+}
+
+instruction1:after {
+    content:"\000A";
+    white-space: pre;
+}
+
+/*
+startOver.style.display = 'none';
+*/

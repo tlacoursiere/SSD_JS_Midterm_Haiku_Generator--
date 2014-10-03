@@ -1,0 +1,40 @@
+body {
+    background-color: lightgreen;
+}
+
+#title, #instructionDivWithButtons {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#generatedHaikuDiv {
+    text-transform: capitalize;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2em;
+}
+
+#generatedHaikuDiv:after {
+    content:"\000A";
+    white-space: pre;
+}
+
+#startOver {
+    text-transform: capitalize;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+textarea, input {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: block;
+}
+
+#haikuButton {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: block;
+
+}
